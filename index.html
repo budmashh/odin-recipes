@@ -9,15 +9,70 @@
     <link rel="stylesheet" href="recipes/lemonade.html">
     <link rel="stylesheet" href="../lasi.html">
     <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(250, 238, 184);
+        }
+
+        img {
+            width: 80px;
+            Height: 80px;
+            border-radius: 50%;
+            text-align: center;
+            vertical-align: -20px;
+
+        }
+
+        h1 {
+            margin: 80px;
+            text-align: center;
+            text-shadow: 4px 4px 4px #aaa;
+            font-size: 90px;
+        }
+
+        .content {
+            position: relative;
+        }
+
+        ul {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+        }
+
+
+        li {
+            list-style-type: none;
+            vertical-align: middle;
+        }
+
+        a {
+            text-align: right;
+            text-shadow: 4px 4px 4px #aaa;
+            font-size: 40px;
+            text-decoration: none;
+            color: rgb(10, 10, 10);
+            vertical-align: 20px;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="recipes/chili.html">Chili</a></li>
-        <li><a href="recipes/lemonade.html">Lemonade</a></li>
-        <li><a href="recipes/lasi.html">Lasi</a></li>
-    </ul>
+    <div class="content">
+        <ul>
+            <a href="recipes/chili.html">
+                <li><img
+                        src="https://images.food52.com/alMF3OeDXh1ukeyb_hQL7t1N2pA=/2016x1344/filters:format(webp)/c8b50197-29c1-446c-9ef2-68024d757b5c--instant-carrot-green-chili-pickle_gajar-mirch-achar.jpg">Chili
+            </a></li>
+            <li><a href="recipes/lemonade.html"><img src="https://opendrinks.io/img/nimbu-pani.e2d8aa94.jpg "
+                        alt="Glass of Lemonade">Lemonade</a></li>
+            <li><a href="recipes/lasi.html"><img
+                        src="https://www.simplyrecipes.com/thmb/4i_UBjU2pPurvTZR-kWTzYsXc0A=/720x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2006__11__mango-lassi-horiz-a-1200-9735abb04fda4bd880a9ba5e09557885.jpg ">Lasi</a>
+            </li>
+        </ul>
+    </div>
 </body>
 
 </html>

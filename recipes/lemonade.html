@@ -7,6 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Lemonade</title>
+    <style>
+        .outer {
+            position: relative;
+        }
+
+        .inner {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+        }
+    </style>
 
 </head>
 
@@ -14,31 +26,38 @@
 
     <h1>Lemonade</h1>
     <img src="https://opendrinks.io/img/nimbu-pani.e2d8aa94.jpg " alt="Glass of Lemonade">
-    <h2>Description</h2>
-    <p>A refreshing combo of lime juice & mint in a drink – my all time favorite</p>
-    <h2>Ingredients</h2>
-    <ul>
-        <li>Lemons – 4 ( 1 sliced for garnishing )</li>
-        <li>Fresh Mint sprigs – 4 – 5</li>
-        <li>Sugar – to taste (I added 6 teaspoons for 4 glasses)</li>
-        <li>Salt – a pinch</li>
-        <li>Cumin Seeds Powder – as per taste ( I added a pinch )</li>
-        <li>Water – 3 glasses chilled water , 1 glass normal room temperature</li>
-        <li>Ice cubes</li>
-    </ul>
-    <h2>Steps</h2>
-    <ol>
-        <li>Take a large Jug, add one glass of normal water to it</li>
-        <li>Now add sugar (you can adjust the sweetness as per your taste) and stir till it dissolves into the water
-            nicely & completely.</li>
-        <li>Squeeze all lemons and add the juice to the same jug. Add pinch of salt and cumin seeds powder to it and
-            continue to stir.</li>
-        <li>Add pinch of salt and cumin seeds powder to it and continue to stir.</li>
-        <li>Now add chilled water and crushed ice to the jug and stir again.</li>
-        <li> Add in few mint leaves to it too. Serve in chilled glasses garnished with lemon slices and mint sprigs.
-        </li>
+    <div class="outer">
+        <div class="inner">
+            <h2>Description</h2>
+            <p>A refreshing combo of lime juice & mint in a drink – my all time favorite</p>
+            <h2>Ingredients</h2>
+            <ul>
+                <li>Lemons – 4 ( 1 sliced for garnishing )</li>
+                <li>Fresh Mint sprigs – 4 – 5</li>
+                <li>Sugar – to taste (I added 6 teaspoons for 4 glasses)</li>
+                <li>Salt – a pinch</li>
+                <li>Cumin Seeds Powder – as per taste ( I added a pinch )</li>
+                <li>Water – 3 glasses chilled water , 1 glass normal room temperature</li>
+                <li>Ice cubes</li>
+            </ul>
+            <h2>Steps</h2>
+            <ol>
+                <li>Take a large Jug, add one glass of normal water to it</li>
+                <li>Now add sugar (you can adjust the sweetness as per your taste) and stir till it dissolves into the
+                    water
+                    nicely & completely.</li>
+                <li>Squeeze all lemons and add the juice to the same jug. Add pinch of salt and cumin seeds powder to it
+                    and
+                    continue to stir.</li>
+                <li>Add pinch of salt and cumin seeds powder to it and continue to stir.</li>
+                <li>Now add chilled water and crushed ice to the jug and stir again.</li>
+                <li> Add in few mint leaves to it too. Serve in chilled glasses garnished with lemon slices and mint
+                    sprigs.
+                </li>
 
-    </ol>
+            </ol>
+        </div>
+    </div>
 </body>
 
 </html>
